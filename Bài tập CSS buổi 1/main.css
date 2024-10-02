@@ -249,3 +249,67 @@ input::placeholder {
     color: white;
     scale: 0.7;
 }
+
+/* item 7 */
+.item-7 {
+    width: 339px;
+    height: 339px;
+    background-color: #f2994a;
+    margin-top: 20px;
+}
+
+.item-7-img {
+    display: flex;
+    justify-content: center;
+}
+
+.item-7-img-content {
+    margin-top: 35px;
+}
+
+.item-7-input{
+    display: flex;
+    justify-content: center;
+}
+
+.item-7-username {
+    border: none;
+    border: 1px solid white;
+    background-color: #f2994a;
+    width: 195px;
+    height: 41px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.item-7-input-password{
+    margin-top: 20px;
+}
+
+.item-7-button{
+    width: 195px;
+    height: 40px;
+    background-color: #9b51e0;
+    color: white;
+    border: none;   
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.forgot{
+    display: flex;
+    justify-content: end;
+    width: 195px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forgot-content{
+    color: white;
+    scale: 0.7;
+}
+
+
+
