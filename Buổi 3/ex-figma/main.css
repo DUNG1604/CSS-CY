@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 100%;
+    /* background-color: #e5e5e5; */
+}
+.wrapper{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* background-color: white; */
+}
 
 /* item 1 */
 
