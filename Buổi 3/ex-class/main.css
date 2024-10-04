@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    padding: 10px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: auto;
+    gap: 20px;
+    justify-items: center;
+}
+
+.grid-item{
+    background-color: bisque;
+    width: 50px;
+    height: 30px;
+}
+.grid-item1{
+    background-color: bisque;
+    width: 50px;
+    height: 30px;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
